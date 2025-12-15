@@ -258,4 +258,10 @@ h1 {
     background-image: none !important;   /* afbeelding uit */
     background-color: #7a0000 !important;
   }
+
+  .games{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
 }
