@@ -15,7 +15,7 @@ body {
 }
 
 
-.logo {     /* Het logo linksbovenaan, gemaakt door Nils*/
+.logo {     /* Het logo linksbovenaan, gemaakt door Nils */
   position: absolute;
   top: 10px;
   left: 10px;
@@ -87,20 +87,7 @@ body {
   background-color: #ffcc00;
 }
 
-.content {
-  padding: 3rem 2rem;
-  margin: auto;
-  text-align: center;
-}
-
-
-.content h2 {
-  color: #004aad;
-  margin-bottom: 1rem;
-  text-align: center;
-}
-
-/* Het ID van de personages */
+/* Het ID van de personages, gemaakt door Jelte */
 .team {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
@@ -128,7 +115,7 @@ body {
   transform: scale(1);
   transition-duration: 1s;
 }
-.team-member img:hover {   /* Het draaien van de plaatjes met hover */
+.team-member img:hover {   
 transform: scale(2);
 transition-duration: 2s; 
 rotate: 360deg;
@@ -144,8 +131,21 @@ opacity: 1;
   margin-top: 1rem;
 }
 
+/* Main ID voor de hele game pagina, gemaakt door Daimy */
+.content {
+  padding: 3rem 2rem;
+  margin: auto;
+  text-align: center;
+}
 
-.games {    /* Id voor de games pagina */
+
+.content h2 {
+  color: #004aad;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.games {    /* Id voor de games pagina, gemaakt door Daimy */
    display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -165,7 +165,7 @@ opacity: 1;
 }
 
 
-
+/* Id voor de footer, gemaakt door Nils */
 footer {
   position: fixed;
   color: white;
@@ -178,6 +178,13 @@ footer {
   bottom: 0;
 }
 
+.homefooter {
+  text-align: center;
+  padding: 1rem;
+  background: green;  
+  color: white;
+  }
+
 
 
 @media (max-width: 768px) {
@@ -189,13 +196,6 @@ footer {
   }
 }
 
-.homefooter {
-  text-align: center;
-  padding: 1rem;
-  background: green;  /* dit is onze footer */
-  color: white;
-  
-}
 
 #container3 {
   display: flex;
