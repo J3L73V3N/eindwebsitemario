@@ -15,7 +15,7 @@ body {
 }
 
 
-.logo {     /* Het logo */
+.logo {     /* Het logo linksbovenaan, gemaakt door Nils*/
   position: absolute;
   top: 10px;
   left: 10px;
@@ -23,8 +23,11 @@ body {
   height: auto;
 }
 
+.logo img {
+  width: 120px;   
+  height: auto;}
 
-.navbar {         /* De header/de bovenste balk */
+.navbar {         /* De header/de bovenste balk, gemaakt door Nils */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,14 +36,6 @@ body {
   position: relative;
   min-height: 10%;
 }
-
-.personages {
- background-image: url();
-}
-
-.logo img {
-  width: 120px;   
-  height: auto;}
 
 .nav-links {
   list-style: none;
@@ -55,13 +50,11 @@ body {
   color: white;
 }
 
-
-
 .nav-links a.active {
   color: yellow;
 }
 
-.hero {
+.hero {                /* De containers in de home pagina, gemaakt door Nils */
   background: linear-gradient(to bottom, rgb(241, 15, 15), blue);
   color: white;
   text-align: center;
@@ -81,7 +74,7 @@ body {
   font-size: 1.1rem;
 }
 
-.btn {
+.btn {       /* De bekijk personages knop, gemaakt door Nils */
   background: yellow;
   padding: 0.8rem 2rem;
   border-radius: 25px;
@@ -107,6 +100,7 @@ body {
   text-align: center;
 }
 
+/* Het ID van de personages */
 .team {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
@@ -117,7 +111,7 @@ body {
   padding-left: 2%;
 }
 
-.team-member {      /* Het ID van de personages */
+.team-member {      
   text-align: center;
   max-width: 28%;
   max-height: 28%;
