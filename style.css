@@ -26,6 +26,10 @@ body {
 .logo img {
   width: 120px;   
   height: auto;}
+  
+.homelogo {
+  size: 5;
+}
 
 .navbar {         /* De header/de bovenste balk, gemaakt door Nils */
   display: flex;
@@ -87,6 +91,23 @@ body {
   background-color: #ffcc00;
 }
 
+/* Het ID van de hele personages pagina, gemaakt door Jelte */
+#container3 {
+  display: flex;
+  background-position-x: center; 
+  flex-direction: column
+  flex-start;
+
+}
+
+#fransefriet {
+
+  color: rgb(255, 191, 0);
+  background-position-x: center;
+  background-image: url(https://cdn.wallpapersafari.com/32/70/pP1eOG.jpg)
+
+}
+
 /* Het ID van de personages, gemaakt door Jelte */
 .team {
   display: grid;
@@ -145,7 +166,7 @@ opacity: 1;
   text-align: center;
 }
 
-.games {    /* Id voor de games pagina, gemaakt door Daimy */
+.games {   /* Id voor de games pagina, gemaakt door Daimy */
    display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -196,32 +217,10 @@ footer {
   }
 }
 
-
-#container3 {
-  display: flex;
-  background-position-x: center; 
-  flex-direction: column
-  flex-start;
-
-}
-
-#fransefriet {
-  color: rgb(255, 191, 0);
-  background-position-x: center;
-  background-image: url(https://cdn.wallpapersafari.com/32/70/pP1eOG.jpg)
-
-}
-
-h1 {
- color: yellow;
-}
-
-.homelogo {
-   size: 5;
-}
+  /* Media queries, gemaakt door Daimy en Jelte */
 @media (max-width: 768px) {
   #container3 {
-    display: flex;  /* laat flexbox werken */
+    display: flex;
     flex-direction: column;
     align-items: center;
     font-size: x-small;
@@ -231,7 +230,7 @@ h1 {
   #fransefriet {
     background-size: contain;
     background-position: center top;
-    background-image: none !important;   /* afbeelding uit */
+    background-image: none !important;
     background-color: #7a0000 !important;
   }
 
