@@ -10,7 +10,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
   background: linear-gradient(to bottom, rgb(255, 0, 0), blue);
-  padding: 0rem 0rem;
+  padding: 0;
   text-align: center;
 }
 
@@ -26,12 +26,9 @@ body {
 .logo img {
   width: 120px;   
   height: auto;}
-  
-.homelogo {
-  size: 5;
-}
 
-.navbar {         /* De header/de bovenste balk, gemaakt door Nils */
+
+.navbar {         /* De header, gemaakt door Nils */
   display: flex;
   justify-content: space-between;
   align-items: center;
